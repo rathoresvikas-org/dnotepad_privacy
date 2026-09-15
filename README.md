@@ -52,8 +52,12 @@ DNotepad requests only the minimal permissions necessary to function as a powerf
 
 * **All Files Access / Storage (`MANAGE_EXTERNAL_STORAGE`, `READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE`):**
   * *Purpose:* Required strictly to provide core editor functionality—enabling you to browse, open, view, edit, compile, and save text documents, code files, and projects across your device’s internal storage and external SD cards.
-* **Exact Alarms, Notifications & Foreground Services (`SCHEDULE_EXACT_ALARM`, `USE_EXACT_ALARM`, `POST_NOTIFICATIONS`, `FOREGROUND_SERVICE`):**
+* **Exact Alarms, Notifications & Foreground Services (`SCHEDULE_EXACT_ALARM`, `POST_NOTIFICATIONS`, `FOREGROUND_SERVICE`):**
   * *Purpose:* Required solely to trigger local task, checklist, and note reminders that you explicitly schedule within the app, and to execute background maintenance tasks (such as autosave cleanup).
+  * *Why This Is Safe:* DNotepad does not request or use `USE_EXACT_ALARM`. Note reminders operate via standard `SCHEDULE_EXACT_ALARM` with a 3-tier defensive fallback:
+    * If `canScheduleExactAlarms()` → uses `setExactAndAllowWhileIdle()` ✅
+    * If not → falls back to `setAndAllowWhileIdle()` (slightly inexact but works) ✅
+    * If `SecurityException` → falls back to `set()` ✅
 * **Boot & Hardware Triggers (`RECEIVE_BOOT_COMPLETED`, `VIBRATE`, `WAKE_LOCK`):**
   * *Purpose:* Required to restore your scheduled local reminders if your device reboots, and to provide haptic feedback and alarm alerts when reminders fire.
 
@@ -95,5 +99,5 @@ We may update this Privacy Policy from time to time to reflect future on-device 
 If you have any questions, suggestions, or concerns regarding this Privacy Policy or DNotepad's offline architecture, please contact:
 
 * **Developer:** RathoreSVikas
-* **GitHub Repository:** [https://github.com/rathoresvikas-org/dnotepad_privacy](https://github.com/rathoresvikas-org/dnotepad_privacy)
-* **Support Email:** rathoresvikas@outlook.com
+* **GitHub Repository:** [https://github.com/rathoresvikas-org/dnotepad_privacy]
+* **Support Email:** [rathoresvikas@outlook.com]
