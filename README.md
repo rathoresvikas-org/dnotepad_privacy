@@ -27,7 +27,7 @@ All data processing, execution, and storage within DNotepad occur strictly insid
 * No telemetry or document contents are intercepted, logged, or exported.
 
 #### B. Offline Multi-Language Code Compilation & Execution
-* DNotepad includes an embedded multi-language execution engine (supporting Python via on-device Chaquopy CPython, Java via on-device BeanShell on ART, Kotlin via local AST transpilation, C/C++ via local WebAssembly, and HTML/CSS/JavaScript/SVG via sandboxed local WebView).
+* DNotepad includes embedded, on-device execution runtimes supporting Python, Java, TypeScript, Markdown, HTML, CSS, and JavaScript.
 * All code execution, script interpretation, and visual document previews run 100% locally within on-device sandboxed execution environments. 
 * No source code or execution output is dispatched to external compilation servers.
 
@@ -41,7 +41,7 @@ All data processing, execution, and storage within DNotepad occur strictly insid
 
 #### E. On-Device Optical Character Recognition (OCR) & Local ML
 * DNotepad provides local text recognition (OCR) and document summarization.
-* Image scanning, character extraction, and text summarization are executed entirely on-device using bundled offline machine learning models (bundled Google ML Kit and LiteRT / TensorFlow Lite). 
+* Image scanning, character extraction, and text summarization are executed entirely on-device using bundled offline machine learning models and local vision runtimes. 
 * Your photos, scanned documents, and extracted text never leave your physical device.
 
 ---
@@ -65,7 +65,7 @@ DNotepad requests only the minimal permissions necessary to function as a powerf
 
 ### 4. Third-Party Libraries and Runtimes
 
-To provide offline compilation, syntax highlighting, and local text recognition, DNotepad bundles select open-source libraries (such as bundled offline ML Kit text recognition, AndroidX components, Chaquopy, and embedded script engines). 
+To provide offline compilation, syntax highlighting, and local text recognition, DNotepad bundles select open-source libraries and embedded script engines. 
 
 * All bundled libraries and runtimes execute strictly within the local device environment.
 * Because DNotepad strips all network permissions (`INTERNET` and `ACCESS_NETWORK_STATE`) from its manifest, no third-party library has the technical capability to transmit data from your device.
@@ -99,5 +99,5 @@ We may update this Privacy Policy from time to time to reflect future on-device 
 If you have any questions, suggestions, or concerns regarding this Privacy Policy or DNotepad's offline architecture, please contact:
 
 * **Developer:** RathoreSVikas
-* **GitHub Repository:** [https://github.com/rathoresvikas-org/dnotepad_privacy]
-* **Support Email:** [rathoresvikas@outlook.com]
+* **GitHub Repository:** [https://github.com/rathoresvikas-org/dnotepad_privacy](https://github.com/rathoresvikas-org/dnotepad_privacy)
+* **Support Email:** [rathoresvikas@outlook.com](mailto:rathoresvikas@outlook.com)
