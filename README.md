@@ -12,7 +12,7 @@ We believe that your personal notes, documents, source code, and data belong exc
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-GOOGLE PLAY DATA SAFETY — QUICK REFERENCE
+              GOOGLE PLAY DATA SAFETY — QUICK REFERENCE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 The table below summarises the declarations made in the Google Play Data Safety section. The full explanation for each item is in the sections that follow.
@@ -40,7 +40,7 @@ Data Safety Compliance Note: Because DNotepad holds no INTERNET or ACCESS_NETWOR
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. 100% OFFLINE ARCHITECTURE & ZERO DATA COLLECTION
+    1. 100% OFFLINE ARCHITECTURE & ZERO DATA COLLECTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 No Internet Permissions at the OS Level:
@@ -57,7 +57,7 @@ We do not collect, store on any server, buy, sell, broker, share, or monetise pe
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. FEATURE-SPECIFIC LOCAL DATA HANDLING
+              2. FEATURE-SPECIFIC LOCAL DATA HANDLING
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 All data processing, execution, and storage within DNotepad occur strictly inside the secure, sandboxed private storage of your local device.
@@ -127,7 +127,7 @@ DNotepad uses on-device AI to generate note summaries and extract tasks from you
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-3. DEVICE PERMISSIONS & TRANSPARENCY
+                  3. DEVICE PERMISSIONS & TRANSPARENCY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 DNotepad requests only the minimal permissions necessary to function as a powerful offline file editor and local AI productivity workspace. Every permission requested has a single, specific, user-facing purpose.
@@ -179,7 +179,7 @@ INTERNET, ACCESS_NETWORK_STATE, ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, CA
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. THIRD-PARTY LIBRARIES, SDKs, AND RUNTIMES
+          4. THIRD-PARTY LIBRARIES, SDKs, AND RUNTIMES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 To provide offline compilation, syntax highlighting, OCR, and local AI inference, DNotepad bundles selected open-source libraries and embedded runtimes. All bundled components operate strictly within the local device environment.
@@ -247,7 +247,7 @@ SECURITY PRACTICES
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-6. YOUR PRIVACY RIGHTS
+                                6. YOUR PRIVACY RIGHTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Even though DNotepad collects no personal data on any server, we recognise and respect the privacy rights granted to users under applicable laws.
@@ -283,14 +283,14 @@ For any questions about your rights, contact us at the address in Section 9.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-7. CHILDREN'S PRIVACY (COPPA COMPLIANCE)
+              7. CHILDREN'S PRIVACY (COPPA COMPLIANCE)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 DNotepad is an offline productivity tool that does not collect, solicit, transmit, or store personal information from any user, including children under the age of 13. The application is completely offline, non-commercial, and imposes no registration or account requirement. DNotepad is safe for all audiences and fully complies with the Children's Online Privacy Protection Act (COPPA).
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-8. CHANGES TO THIS PRIVACY POLICY
+                      8. CHANGES TO THIS PRIVACY POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 We may update this Privacy Policy from time to time to reflect new on-device features, changes to Android platform requirements, or to maintain Google Play compliance. Any revisions will be published at the GitHub repository listed in Section 9 with an updated "Last Updated" date.
@@ -299,7 +299,7 @@ We will not make changes that retroactively reduce your privacy protections with
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-9. CONTACT INFORMATION
+                                9. CONTACT INFORMATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 If you have any questions, suggestions, or concerns regarding this Privacy Policy, DNotepad's offline architecture, or your privacy rights, please contact:
@@ -312,7 +312,7 @@ We aim to respond to all privacy-related enquiries within 30 days.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-10. IN-APP ACCESSIBILITY
+                              10. IN-APP ACCESSIBILITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This Privacy Policy is accessible from within DNotepad via the app's Help / About section. It is also linked on the Google Play Store listing page for DNotepad.
